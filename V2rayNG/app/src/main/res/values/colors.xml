@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPing">#009966</color>
-    <color name="colorPingRed">#FF0099</color>
-    <color name="colorConfigType">#f97910</color>
-
-    <color name="color_fab_active">#f97910</color>
-    <color name="color_fab_inactive">#9C9C9C</color>
-    <color name="color_secondary">#727272</color>
-    <color name="divider_color_light">#E0E0E0</color>
-
-    <color name="colorPrimary">#F5F5F5</color>
-    <color name="colorAccent">#000000</color>
+    <!-- رنگ‌های اصلی -->
+    <color name="colorPrimary">#0A0E27</color>
+    <color name="colorAccent">#00D4FF</color>
+    
+    <!-- رنگ‌های Ping -->
+    <color name="colorPing">#00FF94</color>
+    <color name="colorPingRed">#FF006E</color>
+    
+    <!-- رنگ‌های کانفیگ -->
+    <color name="colorConfigType">#00D4FF</color>
+    
+    <!-- دکمه FAB -->
+    <color name="color_fab_active">#00D4FF</color>
+    <color name="color_fab_inactive">#2D3561</color>
+    
+    <!-- رنگ‌های ثانویه -->
+    <color name="color_secondary">#A0A8D4</color>
+    <color name="divider_color_light">#1A1F3A</color>
 </resources>
