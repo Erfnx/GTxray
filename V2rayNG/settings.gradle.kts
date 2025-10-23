@@ -14,10 +14,16 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
-        mavenCentral()
-        maven { url = uri("https://jitpack.io") }
+    google()
+    mavenCentral()
+    maven { 
+        url = uri("https://jitpack.io")
+        content {
+            includeGroupByRegex("com\\.github\\..*")
+        }
     }
+    maven { url = uri("https://maven.pkg.jetbrains.space/public/p/compose/dev") }
+}
 }
 
 rootProject.name = "v2rayNG"
